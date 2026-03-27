@@ -13,8 +13,8 @@ export default function NavLink({ label, href }: NavItem) {
       href={href}
       className={`text-sm font-medium transition-colors duration-150 ${
         isActive
-          ? "text-zinc-900 dark:text-white"
-          : "text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
+          ? "text-[#E6EDF3]"
+          : "text-slate-400 hover:text-[#E6EDF3]"
       }`}
     >
       {label}
