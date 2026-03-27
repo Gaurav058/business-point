@@ -1,0 +1,1 @@
+export { default as BrokerComparisonTable } from "./BrokerComparisonTable";
